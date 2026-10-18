@@ -70,3 +70,37 @@ input[type="password"]{
 input[type]{
     background-color: ghostwhite;
 }
+
+/* Pseudo Class */
+button:hover {
+    background-color: black;
+    color: whitesmoke;
+}
+
+h3:hover {
+    text-decoration: none;
+}
+
+button:active {
+    background-color: hotpink;
+    color: black;
+}
+
+p:active {
+    font-weight: bold;
+    color: darkblue;
+}
+
+input[id="yes"]:checked + label {
+    color: green;
+    font-weight: bold;
+}
+
+input[id="no"]:checked + label {
+    color: red;
+    font-weight: bold;
+}
+
+div:nth-of-type(2n) {
+    background-color: blanchedalmond;
+}
