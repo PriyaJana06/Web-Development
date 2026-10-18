@@ -42,3 +42,13 @@ h1, h3 {
 nav ul li{
     color: hotpink;
 }
+
+/* Adjacent Sibling Combinator */
+p + h3 {
+    text-decoration: underline;
+}
+
+.upvote + button {
+    background-color: cornflowerblue;
+    color: rgb(0, 0, 50);
+}
