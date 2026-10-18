@@ -104,3 +104,17 @@ input[id="no"]:checked + label {
 div:nth-of-type(2n) {
     background-color: blanchedalmond;
 }
+
+/* Pseudo Element */
+h1::first-letter {
+    color: cadetblue;
+}
+
+p::first-line {
+    color: cornflowerblue;
+}
+
+p::selection {
+    color: darkslateblue;
+    background-color: yellow;
+}
