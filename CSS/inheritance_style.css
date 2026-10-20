@@ -1,0 +1,22 @@
+div {
+    background-color: yellow;
+}
+
+/* form {
+    background-color: red;
+} */
+
+/* Input elements & buttons doesn't inherits properties */
+input {
+    background-color: inherit;
+}
+
+button {
+    background-color: inherit;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+/* width, height, border, etc. are some properties that cannot be inherited */
