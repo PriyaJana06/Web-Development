@@ -1,14 +1,21 @@
 div {
+    /* height & width */
     height: 200px;
     width: 500px;
     background-color: pink;
+
+    /* border */
     border-width: 3px;
     border-style: solid;
     border-color: palevioletred;
     border-left: 3px solid purple;
     border-radius: 12px;
     border-bottom-right-radius: 20px;
+
+    /* padding */
     padding: 5px;
+    
+    /* margin */
     margin: 7px 10px;
 }
 
