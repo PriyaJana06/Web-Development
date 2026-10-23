@@ -1,0 +1,22 @@
+#alpha {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 0, 0, 0.9);
+    /* transition-duration: 0.5s;
+    transition-delay: 0.2s; */
+    margin: 0 auto;
+    margin-top: 10px;
+    transition: margin-top 2s ease-in 0.2s;
+}
+
+#opacity {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(209, 16, 16);
+    opacity: 0.9;
+}
+
+#alpha:hover {
+    background-color: rgb(91, 91, 243);
+    margin-top: 300px;
+}
